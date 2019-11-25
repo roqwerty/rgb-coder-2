@@ -1,0 +1,9 @@
+Thank you for using the RGBCoder2 program!
+
+- Tutorials/Examples can be found in the example folders.
+- Must have PIL, tkinter, and the python string library set up to run the python3 version directly.
+- If using Windows or Linux, I've compiled the program for you already in the "Prebuilt Executables" folder. (It's the same code, just compiled using PyInstaller)
+- Program was developed on Linux, and as such looks the prettiest on that OS.
+
+Have Fun!
+Ethan B.

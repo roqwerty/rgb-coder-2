@@ -1,0 +1,9 @@
+In this last example, we are going to be working with Caesar Offset lists, and while useful, they are a bit complicated to use initially.
+
+Firstly, a brief discription of how the program actually encodes images: The program takes an ordered list of all visible and printable characters, assigns each an index, and hides the index in the image for future use. With the implementation of a custom ordered list, the program will assign a different set of indicies, automatically performing the needed Caesar substitutions. This has the added benefit of changing the RGB base number for encoding of the image, making even Caesar lists like '0123456789' and '01234567890123456789012345678901234567890123456789' read completely differently.
+
+Okay, enough talk; let's actually use this feature. Notice if you decode the 'secret_message3.png' file as is, you will get a string of gibberish, and no amount of messing with Enigma Offsets will produce anything even remotely useful. However, selecting the 'caesar_list.txt' file as the character list (which is nothing more than the digits 0-9 and a space, in a particular order), you can easily extract a list of a few two-digit numbers from the image. These could be coordinates, locations of words in the Silence Dogood letters, or anything else.
+
+A Caesar list is nothing more than a list of all of the characters that you want to use, in a particular order. Try making a custom list for your own secret message!
+
+NOTE: Caesar lists and Enigma Offsets can be used together! Make sure to double-check any encoded images you create this way, however, as there is a small chance that a character or two will become unnecessarily altered.
